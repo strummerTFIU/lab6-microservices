@@ -1,0 +1,27 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:1.4.2.RELEASE"
+    }
+}
+
+allprojects {
+    apply plugin: 'idea'
+    apply plugin: 'eclipse'
+}
+
+subprojects {
+    repositories {
+        mavenCentral()
+    }
+    apply plugin: 'org.springframework.boot'
+    dependencyManagement {
+        imports {
+            mavenBom 'org.springframework.cloud:spring-cloud-dependencies:Brixton.SR5'
+        }
+    }
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+}
