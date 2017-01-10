@@ -17,8 +17,7 @@ NIA    | User name | Repo | Improvement | Score
 544393 | LAHOZ EGEA, CRISTINA
 622612 | MARTIN SEGURA, SERGIO  
 681061 | MARTÍNEZ MENÉNDEZ, ALBERTO | [test repo](https://github.com/Belberus/lab6-microservices/tree/test) | |
-576307 | MARTÍNEZ PÉREZ, ADRIAN
-540891 | MENENDEZ MOYA, FRANCISCO
+540891 | MENENDEZ MOYA, FRANCISCO | [test repo](https://github.com/fmenemo/lab6-microservices/tree/test) | |
 680882 | MORENO JIMENO, RUBÉN | [test repo](https://github.com/nebur395/lab6-microservices/tree/test)
 750849 | MOSQUERA ZAPATA, LUIS EDUARDO | [test repo](https://github.com/luisemz/lab6-microservices/tree/test) | |
 650448 | MURILLO MAGDALENA, JAVIER  | [test repo](https://github.com/javmurillo/lab6-microservices/tree/test)
